@@ -1,6 +1,0 @@
-
-.button-disabled {
-  color: #fff !important;
-  background-color: #006fff !important;
-  opacity: 0.4;
-}
