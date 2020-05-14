@@ -1,8 +1,8 @@
 /*eslint-disable*/
 import LibGenerateTestUserSig from './lib-generate-test-usersig-es.min.js'
 
-const _SDKAPPID = 0;
-const _SECRETKEY = '';
+const _SDKAPPID = 1400345753;
+const _SECRETKEY = 'b9fecb6124d6ead657c4683380d4745ee7cbf703b0391e25f1b6577e99a8d11b';
 /*
  * Module:   GenerateTestUserSig
  *
@@ -49,7 +49,7 @@ function genTestUserSig(userID) {
    * 文档：https://cloud.tencent.com/document/product/647/17275#Server
    */
   var SECRETKEY = _SECRETKEY;
-  
+
   var generator = new LibGenerateTestUserSig(SDKAPPID, SECRETKEY, EXPIRETIME);
   var userSig = generator.genTestUserSig(userID);
   return {
